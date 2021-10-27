@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="button" value="Show Calculator" id="show_hide" class="btnpole">
+    <div class="header">
+
+        <div id="div1" class="noshow">
+            <div class="conteiner">
+                <div class="title">
+                    <div class="title2">
+                        <p class="calculator">calculator</p>
+                        <p class="exchange-rate">Exchange Rate</p>
+                        <p class="unit-converter">Unit Converter</p>
+                    </div>
+                </div>
+                <div class="display">
+                    <div data-previous-operand class="previous-operand"></div>
+                    <div data-current-operand class="current-operand" maxlength="2"></div>
+                </div>
+                <div class="buttons">
+                    <button data-all-clear class="cee">C</button>
+                    <button data-operation class="percent">%</button>
+                    <button data-delete class="delete">&#10229</button>
+                    <button data-operation class="delenie">&#247</button>
+                    <button data-number class="num">7</button>
+                    <button data-number class="num">8</button>
+                    <button data-number class="num">9</button>
+                    <button data-operation class="multiply">*</button>
+                    <button data-number class="num">4</button>
+                    <button data-number class="num">5</button>
+                    <button data-number class="num">6</button>
+                    <button data-operation class="minus">-</button>
+                    <button data-number class="num">1</button>
+                    <button data-number class="num">2</button>
+                    <button data-number class="num">3</button>
+                    <button data-operation class="plus">+</button>
+                    <button class="nullnull">00</button>
+                    <button data-number class="null">0</button>
+                    <button data-number class="point">.</button>
+                    <button data-equals class="equals">=</button>
+
+                </div>
+                <div class="dop">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="interface.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

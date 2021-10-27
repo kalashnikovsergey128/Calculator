@@ -1,0 +1,244 @@
+.header{
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  #ffffff;
+}
+
+.btnpole    {
+    display: inline-block;
+    color: white;
+    height: 100x;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px ;
+    letter-spacing: 2px;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid white;
+    
+    transition: 0.1s;
+    background-color:  rgba(0, 176, 215, 1);
+}
+.conteiner{
+    width: 375px;
+    height: 832px;
+    
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .title{
+        width: 375px;
+        padding-top: 0;
+    height: 50px;
+    border-color: blue;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+    }
+    .title2{
+        display: flex;
+        justify-content: space-between;
+    }
+.unit-converter{
+    font-family: 'Poppins';
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+margin-left: 45px;
+margin-top: 23px;
+
+}
+.exchange-rate{
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+  margin-left: 45px;
+  margin-top: 23px;
+}
+.calculator{
+    margin-left: 25px;
+    margin-top: 23px;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgba(0, 176, 215, 1);
+}
+.buttons{
+    margin: 0 auto;
+    width: 375px;
+    height: 410px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0vw;
+    font-family: 'Poppins';
+   background-color:rgb(155, 212, 224);
+    
+}
+.display{
+    margin-top: 0;
+width: 375px;
+height: 230px;
+background-color: white;
+}
+.previous-operand{
+    margin-top: 122px;
+    position: relative;
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    
+    font-family: "Poppins";
+    text-align: right;
+    
+}
+.current-operand{
+    position: relative;
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 60px;
+    font-size: 35px;
+    font-family: "Poppins";
+    text-align: right;
+    color: grey;
+}
+.cee{
+    border: none;
+    color: rgba(0, 176, 215, 1);
+    background-color: rgb(155, 212, 224);
+    font-size: 30px;
+}
+.percent{
+   border: none;
+   color: rgba(0, 176, 215, 1);
+   background-color:rgb(155, 212, 224);
+   font-size: 30px;
+}
+.delete{
+    border: none;
+    color: rgba(0, 176, 215, 1);
+    background-color:rgb(155, 212, 224);
+    font-size: 30px;
+}
+.num{
+    background-color: white;
+   border: none;
+   background-color: rgb(155, 212, 224);
+   font-size: 30px;
+   
+}
+.plus{
+    border: none;
+    background-color: rgb(155, 212, 224);
+    background-color: rgb(155, 212, 224);
+    color: rgba(0, 176, 215, 1);
+    font-size: 30px;
+}
+.minus{
+    border: none;
+    color: rgba(0, 176, 215, 1);
+    background-color: rgb(155, 212, 224);
+    background-color: rgb(155, 212, 224);
+    font-size: 30px;
+}
+.multiply{
+    border: none;
+    color: rgba(0, 176, 215, 1);
+    background-color: rgb(155, 212, 224);
+    background-color: rgb(155, 212, 224);
+    font-size: 30px;
+}
+.null{
+    border: none;
+    background-color: rgb(155, 212, 224);
+    background-color: rgb(155, 212, 224);
+    font-size: 30px;
+}
+.nullnull{
+    border: none;
+    background-color: rgb(155, 212, 224);
+    background-color: rgb(155, 212, 224);
+    font-size: 30px;
+}
+.point{
+    border: none;
+    background-color: rgb(155, 212, 224);
+    background-color: rgb(155, 212, 224);
+    font-size: 30px;
+}
+.equals{
+    border: none;
+    background-color: rgb(155, 212, 224);
+    color: rgba(0, 176, 215, 1);
+    font-size: 30px;
+}
+.delenie{
+    border: none;
+    color: rgba(0, 176, 215, 1);
+    background-color: rgb(155, 212, 224);
+    font-size: 30px;
+}
+.dop{
+    border: none;
+    width: 375px;
+    padding-top: 0;
+    height: 30px;
+    background-color: rgb(155, 212, 224);
+    border-bottom-left-radius:30px ;
+    border-bottom-right-radius: 30px;
+}
+
+.noshow{
+    display: none;
+  }
+  .show {
+    display: block;
+    
+}
+.num:active {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
+   }
+   .delenie:active {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
+   }
+   .equals:active {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
+   }
+   .point:active {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
+   }
+   .null:active {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
+   }
+   .nullnull:active {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
+   }
+   .minus:active {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
+   }
+   .plus:active {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
+   }
+   .delete:active {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
+   }
+   .percent:active {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
+   }
+   .cee:active {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
+   }
+   .multiply:active {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
+   }
